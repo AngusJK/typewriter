@@ -7,11 +7,10 @@ const gif = function(x) {
     setTimeout(() => {
       process.stdout.write(char);
     }, time, time += 50);
-  } 
-}
+  }
+};
 
 gif(sentence);
 
-// node typewriter.js
 
 
